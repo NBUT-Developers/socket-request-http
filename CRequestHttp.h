@@ -2,11 +2,10 @@
 // http://skycpp.cn
 // Author: zhaolei
 // E-mail: qjzl2008@163.com
-#define WINDOWS
 #include <string>
 #include <list>
 
-#ifdef WINDOWS
+#ifdef WIN32
 #include <winsock2.h> 
 #pragma comment(lib, "WS2_32")   
 #else
